@@ -93,6 +93,9 @@ ros2 launch rmf_demos_gz_clinic hospital.xml
 
 
 
+
+
+
 ros2 run rmf_demos_tasks dispatch_go_to_place \
   -F <fleet_name> \
   -R <robot_name> \
