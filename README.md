@@ -1,8 +1,6 @@
 # hospital-robot-fleet-integration
 Open-RMF based 6-floor hospital digital twin featuring traffic-editor generated building maps, fleet navigation infrastructure, lift integration, waypoint systems, and autonomous healthcare logistics simulation in ROS 2 and Gazebo.
 
-https://youtu.be/TUY37A9My_M
-
 
 # Install ROS 2 Humble
 
@@ -81,24 +79,23 @@ source ~/rmf_ws/install/setup.bash
 
 # Launch the world
 
+<img width="2490" height="1413" alt="Screenshot from 2026-05-22 20-59-04" src="https://github.com/user-attachments/assets/1023d08e-bc7b-4401-8ae1-2166f415413f" />
+
+
 ros2 launch rmf_demos_gz clinic.launch.xml
 
 ros2 launch rmf_demos_gz_clinic hospital.xml
 
 # Robot Navigation
 
+<img width="2490" height="1413" alt="Screenshot from 2026-05-22 21-10-21" src="https://github.com/user-attachments/assets/8337deaa-6f4a-41ee-8e53-8a2639906ce0" />
+<img width="2490" height="1413" alt="Screenshot from 2026-05-22 20-59-13" src="https://github.com/user-attachments/assets/bfe73ac4-90d6-42d3-bcf5-adbbb48d4ec6" />
+
+
 ros2 run rmf_demos_tasks dispatch_go_to_place \
   -F <fleet_name> \
   -R <robot_name> \
   -p <destination_waypoint> \
-  --use_sim_time
-
-  Example:
-
-  ros2 run rmf_demos_tasks dispatch_go_to_place \
-  -F tinyRobot \
-  -R tinyRobot2 \
-  -p coe \
   --use_sim_time
 
 
