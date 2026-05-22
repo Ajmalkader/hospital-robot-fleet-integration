@@ -84,7 +84,7 @@ source ~/rmf_ws/install/setup.bash
 
 ros2 launch rmf_demos_gz clinic.launch.xml
 
-ros2 launch rmf_demos_gz_clinic hospital.xml
+ros2 launch rmf_demos_gz_clinic.xml
 
 # Robot Navigation
 
