@@ -88,19 +88,16 @@ ros2 launch rmf_demos_gz_clinic hospital.xml
 
 # Robot Navigation
 
-<img width="2490" height="1413" alt="Screenshot from 2026-05-22 20-59-13" src="https://github.com/user-attachments/assets/bfe73ac4-90d6-42d3-bcf5-adbbb48d4ec6" />
-<img width="2490" height="1413" alt="Screenshot from 2026-05-22 21-10-21" src="https://github.com/user-attachments/assets/8337deaa-6f4a-41ee-8e53-8a2639906ce0" />
-
-
-
-
-
 
 ros2 run rmf_demos_tasks dispatch_go_to_place \
   -F <fleet_name> \
   -R <robot_name> \
   -p <destination_waypoint> \
   --use_sim_time
+  
+
+<img width="2490" height="1413" alt="Screenshot from 2026-05-22 20-59-13" src="https://github.com/user-attachments/assets/bfe73ac4-90d6-42d3-bcf5-adbbb48d4ec6" />
+<img width="2490" height="1413" alt="Screenshot from 2026-05-22 21-10-21" src="https://github.com/user-attachments/assets/8337deaa-6f4a-41ee-8e53-8a2639906ce0" />
 
 
 Note: The above launch files you must add inside rmf_ws after clone the workspace add launch file inside src/rmf_demo_gz and src/rmf_demo_gz_classic and install/rmf_demo_gz and install/rmf_demo_gz_ classic then particullarly add these install_launch_clinic.launch.xml file inside install/rmf_demo/share/launch/
