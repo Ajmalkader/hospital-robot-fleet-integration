@@ -88,8 +88,9 @@ ros2 launch rmf_demos_gz_clinic hospital.xml
 
 # Robot Navigation
 
-<img width="2490" height="1413" alt="Screenshot from 2026-05-22 21-10-21" src="https://github.com/user-attachments/assets/8337deaa-6f4a-41ee-8e53-8a2639906ce0" />
 <img width="2490" height="1413" alt="Screenshot from 2026-05-22 20-59-13" src="https://github.com/user-attachments/assets/bfe73ac4-90d6-42d3-bcf5-adbbb48d4ec6" />
+<img width="2490" height="1413" alt="Screenshot from 2026-05-22 21-10-21" src="https://github.com/user-attachments/assets/8337deaa-6f4a-41ee-8e53-8a2639906ce0" />
+
 
 
 ros2 run rmf_demos_tasks dispatch_go_to_place \
